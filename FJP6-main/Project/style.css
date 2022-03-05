@@ -1,0 +1,28 @@
+header{
+/* to make navbar side of header DEV101 */
+    display: flex;   
+    /* justify */
+    justify-content: space-between;
+margin:50px;
+font-size:small
+margin-left:2rem;
+}
+ul{
+
+display: flex;
+width: 200px;
+justify-content: space-between;
+list-style-type:none;
+}
+
+nav{ 
+/* view code */
+width: 20vw;
+margin-top: 10px;
+ }
+ img {
+margin-left: 30px;
+margin-left: 30px;
+width: 95vw;
+
+ }

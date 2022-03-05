@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+
+    /* classes desendent */ 
+    /* div .c2 {
+        color: blue;
+    } */
+
+
+/* Wrong */
+    /* span>div{
+        color: blue ;
+    } */
+
+/* c2 is decendant of c2 */
+/* .c1 .c2{             
+    color: blue ;
+} */
+/* c1 AND c2 so wrong no such tag is there with both classes */
+/* .c1.c2{
+
+    color: blue;
+} */
+ 
+
+/* c1 OR c2 so wrong */
+/* .c1,.c2{
+    color: blue;
+} */
+
+  div>div>div>span>div{
+    color: blue;
+}  
+
+/* div div div {
+    color: blue;
+} */
+
+/* Wrong because c1 and c2 are not classes of a single Tag */
+/* .c1.c2{
+    color: blue;
+} */
+
+
+  </style>
+</head>
+
+<body>
+  <!-- Select "I'm here. find me" and make it blue  -->
+
+  <div class="c1">
+    <div>
+      <div>
+        <span>
+          <div class="c2">I'm here. find me</div>
+        </span>
+      </div>
+    </div>
+
+  </div>
+    <span>
+      <div class="c2">Dont select me</div>
+    </span>
+</body>
+
+</html>
