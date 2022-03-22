@@ -1,0 +1,39 @@
+header{
+
+    color: aqua;
+    padding: 1cm;
+    border: 1cm;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+div{
+display: flex;
+justify-content: center;
+
+}
+div.abc 
+{
+    background-color: violet;
+    border: 2cm;
+    margin: 2cm;
+    padding :2cm
+    
+
+}
+div.def{
+    background-color: brown;
+    padding: 2cm;
+    border: 0cm;
+    margin: 1cm;
+}
+
+.vhvw{
+
+    background-color: chartreuse;
+    margin: 1cm;
+    padding: 3vw;
+    
+    
+}
